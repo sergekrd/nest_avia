@@ -5,4 +5,4 @@ COPY .development.env ./
 RUN npm install
 COPY . .
 EXPOSE 5004
-CMD ["npm", "start:dev"]
+CMD ["npm", "start:docker"]
